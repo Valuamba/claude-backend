@@ -30,6 +30,16 @@ Activates automatically when writing code that calls LLM APIs or when asked abou
 /backend-guide:llm-requests
 ```
 
+### evals
+
+Practical regression benchmarks for LLM-powered backend services. Covers ground truth design, Pydantic eval models, real-service runners, mapping/normalization layers, field-level comparison, strict and diagnostic metrics, run artifacts, and a full bench.py template.
+
+Activates automatically when adding evals to a project or designing comparison logic for any business pipeline that uses LLMs.
+
+```
+/backend-guide:evals
+```
+
 ## Key Patterns
 
 - **Standard models** (GPT-4o, etc.): `client.responses.parse()` with `text_format=`
