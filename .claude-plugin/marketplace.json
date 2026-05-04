@@ -1,0 +1,17 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "valuamba-claude-backend",
+  "owner": {
+    "name": "Valuamba"
+  },
+  "metadata": {
+    "description": "Backend development guideline plugin for Claude Code"
+  },
+  "plugins": [
+    {
+      "name": "backend-guide",
+      "source": "./",
+      "description": "Backend development guideline for Python projects. Covers LLM integration with OpenRouter, structured outputs with Pydantic, async patterns, and API architecture."
+    }
+  ]
+}

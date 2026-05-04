@@ -1,0 +1,23 @@
+{
+  "name": "backend-guide",
+  "version": "1.0.0",
+  "description": "Backend development guideline for Python projects. Covers LLM integration with OpenRouter, structured outputs with Pydantic, async patterns, and API architecture.",
+  "author": {
+    "name": "Valuamba",
+    "url": "https://github.com/Valuamba"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/Valuamba/claude-backend",
+  "repository": "https://github.com/Valuamba/claude-backend",
+  "keywords": [
+    "backend",
+    "python",
+    "llm",
+    "openrouter",
+    "openai",
+    "pydantic",
+    "structured-output",
+    "async",
+    "api"
+  ]
+}
