@@ -40,6 +40,14 @@ Activates automatically when adding evals to a project or designing comparison l
 /backend-guide:evals
 ```
 
+### agent-quality
+
+AI agent code quality review. Checks LLM call patterns, post-processing logic, error handling, and eval readiness. Reports non-trivial post-processing (filtering, enrichment, overrides, thresholds) separately from simple mapping. Delegates deep review to the `agent-reviewer` subagent.
+
+```
+/backend-guide:agent-quality path/to/service.py
+```
+
 ## Key Patterns
 
 - **Standard models** (GPT-4o, etc.): `client.responses.parse()` with `text_format=`
