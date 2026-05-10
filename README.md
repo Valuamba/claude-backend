@@ -48,6 +48,14 @@ AI agent code quality review. Checks LLM call patterns, post-processing logic, e
 /backend-guide:agent-quality path/to/service.py
 ```
 
+### prompt-audit
+
+Audit AI agent prompts for quality. Identifies reactive patches (rules added after bad outputs) vs original design rules in system prompts, user prompt templates, and output schemas. Surfaces patch clusters, editing rounds, prompt debt, and recommends actions (keep / merge into design / remove / extract to eval). Delegates to the `prompt-auditor` subagent.
+
+```
+/backend-guide:prompt-audit path/to/service.py
+```
+
 ## Key Patterns
 
 - **Standard models** (GPT-4o, etc.): `client.responses.parse()` with `text_format=`
